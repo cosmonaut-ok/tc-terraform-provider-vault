@@ -7,7 +7,7 @@ import (
 
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hashicorp/vault/api"
-	"github.com/terraform-providers/terraform-provider-vault/util"
+	"github.com/terraform-providers/tc-terraform-provider-vault/util"
 )
 
 func ldapAuthBackendUserResource() *schema.Resource {

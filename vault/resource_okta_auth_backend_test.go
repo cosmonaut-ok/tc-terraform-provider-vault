@@ -11,7 +11,7 @@ import (
 	"github.com/hashicorp/terraform/helper/resource"
 	"github.com/hashicorp/terraform/terraform"
 	"github.com/hashicorp/vault/api"
-	"github.com/terraform-providers/terraform-provider-vault/util"
+	"github.com/terraform-providers/tc-terraform-provider-vault/util"
 )
 
 func TestOktaAuthBackend(t *testing.T) {
