@@ -132,6 +132,7 @@ func Provider() terraform.ResourceProvider {
 			"vault_identity_group_alias":                identityGroupAliasResource(),
 			"vault_rabbitmq_secret_backend":             rabbitmqSecretBackendResource(),
 			"vault_rabbitmq_secret_backend_role":        rabbitmqSecretBackendRoleResource(),
+			"vault_github_team_map":                     GithubTeamMap(),
 		},
 	}
 }
